@@ -6,7 +6,6 @@ body{
     overflow: hidden;
 }
 .body{
-    display: flex;
     background-color: white;
     background-size: cover;
     height: 100vh;
@@ -24,10 +23,34 @@ form{
     position: fixed;
     width: 180px;
     height: 200px;
-    bottom: 30vh;
+    bottom: 25vh;
     left: 0px;
     right:0px;
-   
+    background-color: white;
+    padding: 30px;
+    padding-top: 250px;
+    border-radius: 36px 36px 36px 36px ;
+    padding-bottom: 10px;
+    
+}
+
+.FormShadow{
+ align-content: center;
+    z-index: 1;
+    margin: auto;
+    position: fixed;
+    width: 180px;
+    height: 200px;
+    bottom: 24vh;
+    left: 0px;
+    right:0px;
+    background-color: grey;
+    padding: 30px;
+    padding-top: 250px;
+    border-radius: 36px 36px 36px 36px ;
+    padding-bottom: 0px;
+    opacity: 0.5;
+    filter: blur(5px);
 }
 
 .Form{
@@ -44,30 +67,31 @@ form{
     color: green;
     left: 0px;
     right: 0px;
+   
 }
 .Sumbit{
     text-align: center;
     margin: auto;
     width: 180px;
     background-color: green;
-    border-color: green;
     padding: 10px;
     border-radius: 45px;
     color: white;
     left: 0px;
     right: 0px;
+    border: none;
 }
 
 .Logo{
-        align-content: center;
     z-index: 2;
     margin: auto;
-    position: fixed;
+    position: absolute;
     width: 180px;
-    height: 200px;
-    bottom: 60vh;
+    top:0%;
     left: 0px;
     right:0px;
+    z-index: 3;
+    margin-top: 20px;
 }
 
 .Copyright{
@@ -77,4 +101,12 @@ form{
     z-index: 3;
     position: fixed;
     margin: auto;
+}
+.registrer{
+    text-align: center;
+    color: gray;
+}
+
+.link{
+    color: green;
 }
