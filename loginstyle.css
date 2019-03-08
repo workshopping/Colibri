@@ -110,3 +110,28 @@ form{
 .link{
     color: green;
 }
+
+@media only screen and (max-width: 740px){
+    
+
+  
+    body{
+        width: 100vw;
+        padding: none;
+        margin: auto;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    
+     .body{
+        width: 100vw;
+        padding: 0px;
+        margin: auto;
+    }
+    
+    
+    
+    
+    
+} 
