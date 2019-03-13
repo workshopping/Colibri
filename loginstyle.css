@@ -1,20 +1,19 @@
 body{
     background-image: url(Img/La-Gomera.jpg);
     background-size: cover;
-    margin: 0; 
-    height: 100%;
+    margin: none;     
     overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
 }
 .body{
-    display: flex;
     background-color: white;
     background-size: cover;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     opacity: 0.8;
-     padding: 40px;
-    margin-left: -20px;
-    margin-top: -20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin:-10px;
 }
 
 form{
@@ -24,10 +23,34 @@ form{
     position: fixed;
     width: 180px;
     height: 200px;
-    bottom: 30vh;
+    bottom: 25vh;
     left: 0px;
     right:0px;
-   
+    background-color: white;
+    padding: 30px;
+    padding-top: 250px;
+    border-radius: 36px 36px 36px 36px ;
+    padding-bottom: 10px;
+    
+}
+
+.FormShadow{
+ align-content: center;
+    z-index: 1;
+    margin: auto;
+    position: fixed;
+    width: 180px;
+    height: 200px;
+    bottom: 24vh;
+    left: 0px;
+    right:0px;
+    background-color: grey;
+    padding: 30px;
+    padding-top: 250px;
+    border-radius: 36px 36px 36px 36px ;
+    padding-bottom: 0px;
+    opacity: 0.5;
+    filter: blur(5px);
 }
 
 .Form{
@@ -41,33 +64,35 @@ form{
     padding: 10px;
     border-radius: 45px;
     background: none;
-    color: green;
+    color: gray;
     left: 0px;
     right: 0px;
+    width: 100%;
+   
 }
 .Sumbit{
     text-align: center;
     margin: auto;
     width: 180px;
     background-color: green;
-    border-color: green;
     padding: 10px;
     border-radius: 45px;
     color: white;
     left: 0px;
     right: 0px;
+    border: none;
 }
 
 .Logo{
-        align-content: center;
     z-index: 2;
     margin: auto;
-    position: fixed;
+    position: absolute;
     width: 180px;
-    height: 200px;
-    bottom: 60vh;
+    top:0%;
     left: 0px;
     right:0px;
+    z-index: 3;
+    margin-top: 20px;
 }
 
 .Copyright{
@@ -78,3 +103,97 @@ form{
     position: fixed;
     margin: auto;
 }
+.regnow{
+    text-align: center;
+    color: gray;
+    margin: auto;
+    position:relative;
+    margin-top: 20px;
+}
+
+.link{
+    color: green;
+}
+
+.progress{
+    transform: rotate(-90deg);
+    width: 50%;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    position: absolute;
+    top: 70%;
+}
+.registrer{
+    position: absolute;
+    margin-top: 100px;
+    top: 0%;
+    left: 0px;
+    right: 0px;
+    width: 180px;
+    padding: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.RegHedLin{
+    text-align: center;
+    width: 100%;
+    top: 0px;
+    position: absolute;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    color: gray;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.Thanks{
+    text-align: center:
+top: -20px;
+position: absolute;
+margin: auto;
+left: 0px;
+right: 0px;
+}
+.miniinfo{
+    position: absolute;
+    top: 220px;
+    font-size: 12;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+}
+
+#login{
+    position: absolute;
+    top: 165px;
+}
+
+@media only screen and (max-width: 740px){
+    
+/*Mobil fix*/
+  
+    body{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        background-size: cover;
+        background-repeat: no-repeat;
+         overflow: hidden;
+    }
+    
+    
+     .body{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+         
+    }
+    
+    
+    
+    
+    
+} 
