@@ -67,10 +67,7 @@ form{
     color: gray;
     left: 0px;
     right: 0px;
-<<<<<<< HEAD
     width: 100%;
-=======
->>>>>>> 5eac8f5934afb6e366aa7cadfbd8f8b530204f88
    
 }
 .Sumbit{
@@ -106,25 +103,18 @@ form{
     position: fixed;
     margin: auto;
 }
-<<<<<<< HEAD
 .regnow{
     text-align: center;
     color: gray;
     margin: auto;
     position:relative;
     margin-top: 20px;
-=======
-.registrer{
-    text-align: center;
-    color: gray;
->>>>>>> 5eac8f5934afb6e366aa7cadfbd8f8b530204f88
 }
 
 .link{
     color: green;
 }
 
-<<<<<<< HEAD
 .progress{
     transform: rotate(-90deg);
     width: 50%;
@@ -181,41 +171,25 @@ right: 0px;
     top: 165px;
 }
 
-=======
->>>>>>> 5eac8f5934afb6e366aa7cadfbd8f8b530204f88
 @media only screen and (max-width: 740px){
     
 /*Mobil fix*/
   
     body{
-<<<<<<< HEAD
         width: 100%;
         padding: 0px;
         margin: 0px;
         background-size: cover;
         background-repeat: no-repeat;
          overflow: hidden;
-=======
-        width: 100vw;
-        padding: none;
-        margin: auto;
-        background-size: cover;
-        background-repeat: no-repeat;
->>>>>>> 5eac8f5934afb6e366aa7cadfbd8f8b530204f88
     }
     
     
      .body{
-<<<<<<< HEAD
         width: 100%;
         padding: 0px;
         margin: 0px;
          
-=======
-        width: 100vw;
-        padding: 0px;
-        margin: auto;
->>>>>>> 5eac8f5934afb6e366aa7cadfbd8f8b530204f88
     }
     
     
