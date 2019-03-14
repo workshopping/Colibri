@@ -11,6 +11,19 @@ body{
     top: -20px;
     position: absolute;
     background-attachment: fixed;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+
+
+}
+
+
+.header{
+     height: 120vh;
+    width: 100vw;
+    left: -20px;
+    top: -20px;
+    position: absolute;
 }
 
 #Mountain{
